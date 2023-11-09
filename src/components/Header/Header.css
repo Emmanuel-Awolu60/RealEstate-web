@@ -1,7 +1,19 @@
-.h-menu a{
-    color: red;
+.h-wrapper{
+    background: var(--black);
+    color: #ffff;
 }
 
-.h-wrapper{
-    display: flex;
+.h-container{
+    justify-content: space-between !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    color: var(--secondery) !important;
+}
+
+.h-menu{
+    gap: 2rem;
+}
+
+.h-menu:hover{
+    cursor: pointer;
 }
