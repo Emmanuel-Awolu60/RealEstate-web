@@ -42,7 +42,12 @@ const Value = () => {
                     <AccordionItem 
                     className='accordionItem' key={i} uuid={i}>
                         <AccordionItemHeading>
-                            <AccordionItemButton>
+                            <AccordionItemButton className='flexCenter accordionItemButton'>
+
+                                <AccordionItemState>
+                                    {({expanded})=> expanded ? setClassName("expanded") : setClassName('collapsed')}
+                                </AccordionItemState>
+
                                 <div className="flexCenter icon">
                                     {item.icon}
                                 </div>
@@ -54,6 +59,12 @@ const Value = () => {
                                 </div>
                             </AccordionItemButton>
                         </AccordionItemHeading>
+
+                        <AccordionItemPanel>
+                            <p className="secondaryText">
+                                {item.detail}
+                            </p>
+                        </AccordionItemPanel>
                     </AccordionItem>
                     );
                 })
