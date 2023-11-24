@@ -9,3 +9,7 @@
 .v-right{
     gap: 0.5rem;
 }
+
+.v-right>span{
+    display: block;
+}
