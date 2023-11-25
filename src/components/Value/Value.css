@@ -27,6 +27,11 @@
     margin-bottom: 20px;
 }
 
+.accordionItem .expanded{
+    box-shadow: var(--shadow);
+    border: 5px;
+}
+
 .accordionItemButton{
     background-color:#fff;
     padding: 1rem;
