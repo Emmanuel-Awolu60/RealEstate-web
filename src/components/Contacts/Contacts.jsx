@@ -1,5 +1,9 @@
 import React from "react";
 import "./Contacts.css";
+import { MdCall } from "react-icons/md";
+import { BsFillChatDotsFill } from "react-icons/bs";
+import { HiChatBubbleBottomCenter } from "react-icons/hi2";
+
 const Contacts = () => {
   return (
     <section className="c-wrapper">
@@ -11,13 +15,28 @@ const Contacts = () => {
           <span className="secondaryText">
             We always ready to help by providing best services for you.
             <br />
-             We beleive a good blace to live can nake your life better
+            We beleive a good blace to live can nake your life better
           </span>
 
-
-            
-
-
+          <div className="flexColStart contactModes">
+            {/* first row */}
+            <div className="flexColStart row">
+              <div className="flexColCenter mode">
+                <div className="flexStart">
+                  <div className="flexCenter icon">
+                    <MdCall size={25} />
+                  </div>
+                  <div className="flexStart detail">
+                    <span className="primaryText">Call</span>
+                    <span className="secondaryText">021 123 145 14</span>
+                  </div>
+                </div>
+                <div className="flexCenter button">
+                    Call Now
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* right side */}
