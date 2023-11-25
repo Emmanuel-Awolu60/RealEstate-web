@@ -22,11 +22,11 @@
 .contactModes{
      margin-top: 2rem;
      gap: 1rem;
+     border: 3px solid black;
 }
 
 .contactModes .rom{
-    /* gap: 2rem; */
-    justify-content: space-between;
+    gap: 90rem;
 }
 
 .mode{
@@ -68,5 +68,6 @@
 }
 
 .detail>span{
+    border: 3px solid blanchedalmond;
     display: block !important;
 }
