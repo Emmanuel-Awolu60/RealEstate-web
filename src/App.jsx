@@ -5,6 +5,7 @@ import Companies from "./components/Companies/Companies";
 import Residencies from "./components/Residencies/Residencies";
 import Value from "./components/Value/Value";
 import Contacts from "./components/Contacts/Contacts";
+import GetStarted from "./components/GetStarted/GetStarted";
 import "./App.css";
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
       <Residencies />
       <Value />
       <Contacts />
+      <GetStarted />
     </div>
   );
 };

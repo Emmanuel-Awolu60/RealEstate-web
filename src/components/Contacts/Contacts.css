@@ -22,7 +22,6 @@
 .contactModes{
      margin-top: 2rem;
      gap: 1rem;
-     border: 3px solid black;
 }
 
 .contactModes .rom{
@@ -68,6 +67,5 @@
 }
 
 .detail>span{
-    border: 3px solid blanchedalmond;
     display: block !important;
 }
