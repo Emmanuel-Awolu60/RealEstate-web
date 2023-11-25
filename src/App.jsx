@@ -4,6 +4,7 @@ import Hero from "./components/Hero/Hero";
 import Companies from "./components/Companies/Companies";
 import Residencies from "./components/Residencies/Residencies";
 import Value from "./components/Value/Value";
+import Contacts from "./components/Contacts/Contacts";
 import "./App.css";
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <Companies />
       <Residencies />
       <Value />
+      <Contacts />
     </div>
   );
 };
