@@ -6,6 +6,7 @@ import Residencies from "./components/Residencies/Residencies";
 import Value from "./components/Value/Value";
 import Contacts from "./components/Contacts/Contacts";
 import GetStarted from "./components/GetStarted/GetStarted";
+import Footer from "./components/Companies/Footer/Footer";
 import "./App.css";
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
       <Value />
       <Contacts />
       <GetStarted />
+      <Footer />
     </div>
   );
 };
