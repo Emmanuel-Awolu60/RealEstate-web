@@ -12,6 +12,7 @@
 
 .c-left{
     gap: 0.5rem;
+    margin-left: 3rem;
 }
 
 .c-left>span:last-child{
@@ -24,7 +25,8 @@
 }
 
 .contactModes .rom{
-    gap: 1rem;
+    /* gap: 2rem; */
+    justify-content: space-between;
 }
 
 .mode{
@@ -56,4 +58,15 @@
 
 .mode:hover{
     scale: 1.1;
+    box-shadow: var(--shadow);
+}
+
+.mode .button:hover{
+    background: var(--blue-gradient);
+    color: #fff;
+    scale: 0.8;
+}
+
+.detail>span{
+    display: block !important;
 }

@@ -20,7 +20,7 @@ const Contacts = () => {
 
           <div className="flexColStart contactModes">
             {/* first row */}
-            <div className="flexColStart row">
+            <div className="flexStart row">
               <div className="flexColCenter mode">
                 <div className="flexStart">
                   <div className="flexCenter icon">
@@ -31,9 +31,51 @@ const Contacts = () => {
                     <span className="secondaryText">021 123 145 14</span>
                   </div>
                 </div>
-                <div className="flexCenter button">
-                    Call Now
+                <div className="flexCenter button">Call Now</div>
+              </div>
+
+              {/* second mode */}
+              <div className="flexColCenter mode">
+                <div className="flexStart">
+                  <div className="flexCenter icon">
+                    <BsFillChatDotsFill size={25} />
+                  </div>
+                  <div className="flexStart detail">
+                    <span className="primaryText">Chat</span>
+                    <span className="secondaryText">021 123 145 14</span>
+                  </div>
                 </div>
+                <div className="flexCenter button">Chat Now</div>
+              </div>
+            </div>
+
+            {/* second row */}
+            <div className="flexStart row">
+              <div className="flexColCenter mode">
+                <div className="flexStart">
+                  <div className="flexCenter icon">
+                    <BsFillChatDotsFill size={25} />
+                  </div>
+                  <div className="flexStart detail">
+                    <span className="primaryText">Video Call</span>
+                    <span className="secondaryText">021 123 145 14</span>
+                  </div>
+                </div>
+                <div className="flexCenter button">Video Call Now</div>
+              </div>
+
+              {/* fourth mode */}
+              <div className="flexColCenter mode">
+                <div className="flexStart">
+                  <div className="flexCenter icon">
+                    <HiChatBubbleBottomCenter size={25} />
+                  </div>
+                  <div className="flexStart detail">
+                    <span className="primaryText">Massage</span>
+                    <span className="secondaryText">021 123 145 14</span>
+                  </div>
+                </div>
+                <div className="flexCenter button">Massage Now</div>
               </div>
             </div>
           </div>
