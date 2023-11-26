@@ -54,7 +54,10 @@
     font-size: 1.1rem;
     font-weight: 600;
 }
-
+.mode .detail .secondaryText{
+    display: block;
+    border: 2px solid black;
+}
 .mode:hover{
     scale: 1.1;
     box-shadow: var(--shadow);
