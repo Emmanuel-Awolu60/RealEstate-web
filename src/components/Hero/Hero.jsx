@@ -6,6 +6,7 @@ import { motion } from "framer-motion"
 import CountUp from 'react-countup';
 const Hero = () => {
   return (
+    
     <section className="hero-wrapper">
       <div className="paddings innerWidth flexCenter hero-container">
         <div className="flexColStart hero-left">
@@ -19,7 +20,7 @@ const Hero = () => {
               type: "spring"
             }}
             >
-              Discover <br /> Most Suitabale <br /> Property
+              Discover <br /> Most Suitable <br /> Property
             </motion.h1>
           </div>
 
