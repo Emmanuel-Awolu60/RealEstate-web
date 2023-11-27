@@ -1,8 +1,9 @@
 import React from "react";
 import "./Hero.css";
+import { motion } from "framer-motion"
 // import CountQueuingStrategy from "react countQueuingStrategy"
 // import {HTMLLocationMarker} from "react-icon/h1"
-
+import CountUp from 'react-countup';
 const Hero = () => {
   return (
     <section className="hero-wrapper">
@@ -10,10 +11,16 @@ const Hero = () => {
         <div className="flexColStart hero-left">
           <div className="orange-cicle" />
           <div className="hero-title">
-            <h1>
-              {" "}
+            <motion.h1
+            initial={{y: '2rem', opacity: 0}}
+            animate={{y: 0, opacity: 1}}
+            transition={{
+              duration: 2,
+              type: "spring"
+            }}
+            >
               Discover <br /> Most Suitabale <br /> Property
-            </h1>
+            </motion.h1>
           </div>
 
           <div className="flexColStart hero-des">
@@ -29,8 +36,8 @@ const Hero = () => {
           <div className="flexCenter stats">
             <div className="flexColStart stat">
               <div>
-                {/* <CountQueuingStrategy start={8800} end={9000} duration={4}/> */}
-                <span>9,000</span>
+                <CountUp start={8800} end={9000} duration={4}/>
+                {/* <span>9,000</span> */}
                 <span>+</span>
               </div>
                 <span className="secondaryText">Premium Product</span>
@@ -38,8 +45,8 @@ const Hero = () => {
 
             <div className="flexColStart stat">
               <div>
-                {/* <CountQueuingStrategy start={8800} end={9000} duration={4}/> */}
-                <span>2,000</span>
+                <CountUp start={1950} end={2000} duration={4}/>
+                {/* <span>2,000</span> */}
                 <span>+</span>
               </div>
                 <span className="secondaryText">Happy custmers</span>
@@ -47,8 +54,8 @@ const Hero = () => {
 
             <div className="flexColStart stat">
               <div>
-                {/* <CountQueuingStrategy start={8800} end={9000} duration={4}/> */}
-                <span>28</span>
+                <CountUp end={28} />
+                {/* <span>28</span> */}
                 <span>+</span>
               </div>
                 <span className="secondaryText">Award winning</span>
@@ -57,9 +64,16 @@ const Hero = () => {
         </div>
 
         <div className="flexCenter hero-right">
-          <div className="image-container">
+          <motion.div
+          initial={{x:'7rem', opacity:0}}
+          animate={{x: 0, opacity:1}}
+          transition={{
+            duration: 2,
+            type: "spring"
+          }}
+          className="image-container">
             <img src="./hero-image.png" alt="" />
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
