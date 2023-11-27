@@ -21,8 +21,8 @@ const App = () => {
       <Residencies />
       <Value />
       <Contacts />
-      {/* <GetStarted /> */}
-      {/* <Footer /> */}
+      <GetStarted />
+      <Footer />
     </div>
   );
 };
