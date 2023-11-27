@@ -83,7 +83,9 @@
         position: initial;
     }
 
-    .r-card>img {
-        margin-left: 6rem;
+    .r-head {
+       
+        margin-left: 0rem;
     }
+   
 }
