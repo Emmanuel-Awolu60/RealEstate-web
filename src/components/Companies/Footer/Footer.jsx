@@ -21,7 +21,7 @@ const Footer = () => {
           <span className='primaryText'>Information</span>
           <span className='secondaryText'>145 New york, FL 4571, USA</span>
 
-          <div className="flexCener f-menu">
+          <div className="flexCenter f-menu">
                 <span>Property</span>
                 <span>Services</span>
                 <span>Product</span>
