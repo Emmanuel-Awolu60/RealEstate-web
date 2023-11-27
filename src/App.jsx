@@ -19,7 +19,7 @@ const App = () => {
       </div>
       <Companies />
       <Residencies />
-      {/* <Value /> */}
+      <Value />
       {/* <Contacts /> */}
       {/* <GetStarted /> */}
       {/* <Footer /> */}
